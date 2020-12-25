@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Mammals | Nirvaan Reddy</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet"> 
+	<link rel="stylesheet" href="open-iconic/css/open-iconic.css">
+	<style>
+	
+		@font-face {
+			font-family: "Black Rose";
+			src: url("fonts/BLACKR~1.TTF");
+		}
+	
+		body {
+			background-color: Azure;
+			font-family: "Arial", sans-serif;
+			padding-top:50px;
+			line-height:2;
+			color: White;
+		}
+
+
+		h1 {
+			font-family: "Black Rose", Fantasy;
+			font-weight: normal;
+			font-size: 8em;
+			color: Azure;
+			letter-spacing: .9em;
+		}
+	
+		h2 {
+			font-family: "Abril Fatface", serif;
+			font-size: 3em;
+			color: #6FAD52;
+			text-align: center;
+			letter-spacing: 0.3em;
+		}
+		
+		p {
+			font-family: "Abril Fatface", serif;
+			color:  #9052ad;
+			font-size: 2em;
+			text-align: center;
+		}
+		.clearfloat {
+			clear: both;
+		}
+		
+		#main, #nav {
+			width: 720px;
+			margin: auto;
+		}
+		.thumbnail {
+			background-color: #CCC;
+			margin: 10px;
+			width: 220px;
+			height: 220px;
+			float: left;
+			overflow: hidden;		
+			position:relative;
+		}
+		.overlay {
+			/*background:#000; */
+			background-color: rgba(0, 0, 0, 0.6);
+			color:#fff;
+			position:absolute;
+			top:0;
+			left:0px;
+			right:0px;
+			bottom:0px;
+			text-align:center;
+			visibility:hidden;
+			padding-top:35%;
+		}
+		
+		/* Add the overlay hover effect */
+		.thumbnail:hover .overlay {
+			visibility:visible;
+		}
+		
+		.thumbnail > img {
+			width: auto;
+			height: 100%;
+		}
+		.thumbnail > .width-100 {
+			width: 100%;
+			height: auto;
+		}
+		
+		/* Add z-index */
+		#navbar {
+			background-color: #9052ad;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			z-index:1;
+		}
+		
+		/* Style #nav ul, removing bullets and no margins or paddings */
+		#nav ul {
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+		
+		/* Add background color, same as #navbar */
+			#nav li {
+			background-color: #9052ad;
+			width: 140px;
+			text-align: center;
+			float:right;
+			line-height: 50px;
+			position: relative;
+		}
+		
+
+		#nav li:hover {
+			background-color: #6FAD52;
+		}
+		
+		#nav a {
+		
+			text-decoration: none;
+			color: #FFF;
+		}
+		
+		#nav ul ul {
+			top: 50px; 
+			left: 0px;
+			visibility: hidden;
+		}
+
+		#nav li:hover > ul {
+			visibility: visible;
+		}
+		
+		#nav ul ul ul {
+			left: 180px; 
+			top: 0px;
+		}
+		.adf {
+			position: relative;bottom: 40px;
+			padding:0px 20px;
+			text-align: center;
+			background-image: url('img/mam.jpg');
+			height: 600px;
+			background-size: cover;
+		}
+		.vid {
+			position: relative; left: 100px; top: 20px;
+	
+		}
+		.aboutus {
+			position: relative;top: 30px;
+			border-style: dashed;
+			border-color: #9052ad;
+			margin: 0px 10px;
+
+		}
+		.footer {
+			font-family: "Abril Fatface", serif;
+			text-align: center;
+			width: auto;
+			background-color: #9052ad;
+			color: Azure;
+		}
+		.s {
+			position: relative;left: 275px;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div class="adf"> 
+		<h1> MAMMALS </h1>
+	</div>
+	<div id="navbar">
+	
+		<div id="nav">
+			<ul>
+				<li><a href="birds.html">Birds</a></li>
+				<li>
+					<a href="Ampihibians.html">Amphibians</a>
+				</li>
+				<li><a href="reptiles.html">Reptiles</a></li>
+				<li><a href="mammals.html">Mammals</a></li>
+			
+				<li><a href="index.html">Home</a></li>
+			
+			</ul>
+
+			<div class="clearfloat"></div>
+
+		</div> <!-- #nav -->
+
+
+	</div> <!-- #navbar -->
+
+	<div id="main">
+
+		<div class="vid">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/F5UPc8dya-M" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		
+		<div class="aboutus"> 
+			<h2> ABOUT MAMMALS </h2>
+			<p>
+				Mammals (from Latin mamma "breast") are a group of vertebrate animals constituting the class Mammalia, and characterized by the presence of mammary glands which in females produce milk for feeding (nursing) their young, a neocortex (a region of the brain), fur or hair, and three middle ear bones. These characteristics distinguish them from reptiles and birds, from which they diverged in the late Carboniferous, approximately 300 million years ago. Around 6,400 extant species of mammals have been described. The largest orders are the rodents, bats and Eulipotyphla (hedgehogs, moles, shrews, and others). The next three are the Primates (apes including humans, monkeys, and others), the Artiodactyla (cetaceans and even-toed ungulates), and the Carnivora (cats, dogs, seals, and others).
+			</p> 
+			<br>
+			<p>
+				<a href="https://www.marinemammalcenter.org/get-involved/ways-to-give/donations" target="_blank">DONATE TO HELP MAMMALS HERE </a>
+			</p>
+		
+		</div>	
+		<br>
+		<br>
+		<div class="footer">
+			<form action="confirmation.html"> 
+				Wanna join the newsletter? Please enter your email, and we will send weekly updates!
+
+				<label for="email">Email:</label>									
+				<input type="email" id="email" name="email">
+				<button type="submit" id="submit-button"> Submit </button>
+			</form>
+		</div>
+
+	</div> <!-- #main -->
+
+</body>
+</html>
